@@ -3,7 +3,9 @@ body {
      }
 }
 
-<h1 style="color:red;"></h1>
+h1 {
+  background-color: green;
+}
 
 <ul>
   <li><a href="#index">index</a></li>
