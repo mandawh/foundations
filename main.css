@@ -26,7 +26,13 @@ li a {
 
 </ul>
 
+}
 
+div.gallery {
+  margin: 200px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 300px;
 
 
 
