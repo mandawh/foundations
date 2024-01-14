@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#grad1 {
+  height: 200px;
+  background-color: red;
+  background-image: linear-gradient(red, yellow);
+}
+</style>
+
+</head>
+<body>
+
+<h1>heading</h1>
+<p>paragraph.</p>
+
+<div id="grad1"></div
+
+</body>
+</html>
