@@ -1,9 +1,15 @@
 <!DOCTYPE html>
   <html>
+  <body>
+<ul>
+  <li><a href="#index">index</a></li>
+  <li><a href="#boards">boards</a></li>
+</ul>
+
   <head>
    <style>
      body {
-      background-color: lightblue;
+      background-color: violet;
      }
    </style>
   </head>
