@@ -7,9 +7,16 @@ h1 {
   text-align: center;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  width: 60px;
+  background-color: #dddddd;
 }
 
 <ul>
