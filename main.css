@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-  <html>
-  <body>
-<ul>
-  <li><a href="#index">index</a></li>
-  <li><a href="#boards">boards</a></li>
-</ul>
-
-  <head>
-   <style>
+<html>
+<head>
+  <style>
      body {
       background-color: violet;
      }
    </style>
   </head>
-  
+<body>
    <h1>Heading: &hearts;</h1>
-    <p>
-      
-    </p>
+    <p> hi </p>
+<ul>
+  <li>index</li>
+  <li>boards</li>
+</ul>
+
+  
     
-  </body>
-  </html>
+ </body>
+ </html>
