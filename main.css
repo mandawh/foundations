@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
- <title>title for main</title>
-  <style>
-     body {
-      background-color: violet;
+body {
+      background-color: lilac;
      }
-   </style>
-</head>
-<body>
-   <h1>Heading: &hearts;</h1>
-    <p> hi </p>
-<ul>
-  <li>index</li>
-  <li>boards</li>
-</ul>
+}
 
-  
-    
- </body>
- </html>
+h1 {
+ color: red;
+ margin-left: 10px;
+}
+
+
