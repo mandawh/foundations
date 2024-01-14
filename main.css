@@ -1,11 +1,17 @@
 body {
-      background-color: lilac;
+      background-color: purple;
      }
 }
 
-h1 {
- color: red;
- margin-left: 10px;
-}
+<h1 style="color:red;"></h1>
+
+<ul>
+  <li><a href="#index">index</a></li>
+  <li><a href="#boards">boards</a></li>
+
+</ul>
+
+
+
 
 
