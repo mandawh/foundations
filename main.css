@@ -20,13 +20,10 @@ h1 {
   padding: 15px;
   display: block;
   text-align: left;
+  
  }
-
-  div.gallery {
-  margin: 200px;
-  border: 1px solid #ccc;
-  float: right;
-  width: 300px;
+  img {
+   float: right;
   }
 
 }
@@ -39,13 +36,6 @@ h1 {
  }
    
 
-div.gallery {
-  margin: 200px;
-  border: 1px solid #ccc;
-  float: right;
-  width: 300px;
-
-}
 
 
 
