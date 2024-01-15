@@ -7,19 +7,28 @@ p {
 h1 {
   color: white;
   text-align: center;
-  }
+ }
  .navbar ul{
    list-syle-type: none;
    background-color: blue;
-   padding: 0px;
-   margin0px;
+   padding: 5px;
+   margin: 0px;
  }
 .navbar a{
   color:white;
   text-decoration: none;
   padding: 15px;
   display: block;
-  text-align: center;
+  text-align: left;
+ }
+
+  div.gallery {
+  margin: 200px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 300px;
+  }
+
 }
   
 
