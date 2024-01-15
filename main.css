@@ -8,57 +8,38 @@ h1 {
   text-align: center;
 }
 
+ body {
+  background: green;
+  color: white;
+  
+}
 ul {
   list-style-type: none;
-  margin: 10px;
-  padding: 5px;
-}
+  margin: 0;
+  padding: 0;
+  width: 60px;
+} 
 
 li a {
   display: block;
-  height: 6000px
-  width: 200px;
-  background-color: red;
+  background-color: #dddddd;
+
 }
-
 <ul>
-  <li><a href="#">index</a></li>
-  <li><a href="#">boards</a></li>
-
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
 </ul>
 
 }
-
-body {
-  margin: 0;
-  padding: 0;
-  background: blue;
-  font-family:A rial;
-}
-.navbar ul{
-  list-style: none;
-  background: red;
-  padding:0;
-  margin:0;
-}
-
-.navbar a{
-  text-decoration: none;
-  color: white;
-  width: 100px;
-  display: block;
-  padding: 25px 20px;
-  font-size:15px;
-
-
-
 div.gallery {
   margin: 200px;
   border: 1px solid #ccc;
   float: right;
   width: 300px;
 
-
+}
 
 
 
