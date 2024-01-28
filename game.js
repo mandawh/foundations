@@ -1,5 +1,5 @@
 function myFunction() {
-  document.getElementById("sample").innerHTML = "you win"
+  document.getElementById("sample").innerHTML = "you win";
 }
 
  <script language = "javascript" type="text/javascript">
