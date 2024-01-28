@@ -9,11 +9,11 @@ function myFunction() {
     var y = 4
     
     var sum = x+y
- //the sum of the logical operaction adding the given numbers togther-->
 
     if (sum = 6){
       document.write("you win")
     }
+      //the sum of the logical operaction adding the given numbers togther-->
       //the conditional that varifies the correct answer and will be read the following above-->
     else if(sum >6){
       document.write("you lose")
