@@ -1,6 +1,8 @@
 function myFunction() {
-  document.getElementById("sample").innerHTML = "correct!"
+  document.getElementById("sample").innerHTML = "you win"
 }
+
+<script language = "javascript" type="text/javascript">
     var x = 2
     var y = 4
     
@@ -15,3 +17,4 @@ function myFunction() {
     else{
       document.write("you lose")
     }
+</script>
