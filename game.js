@@ -9,7 +9,7 @@ function myFunction() {
     var y = 4
     
     var sum = x+y
-//the sum of the logical operaction adding the given numbers togther-->
+ //the sum of the logical operaction adding the given numbers togther-->
 
     if (sum = 6){
       document.write("you win")
