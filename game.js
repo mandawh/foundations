@@ -1,5 +1,5 @@
 function myFunction() {
-  document.getElementById("sample").innerHTML = ""
+  document.getElementById("sample").innerHTML = "correct!"
 }
     var x = 2
     var y = 4
