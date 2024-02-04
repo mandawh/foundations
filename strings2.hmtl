@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" herf="strings.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>strings.html</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker Authorization</title>
+    <link rel = "stylesheet" href="stringscss.css">
+</head>
+<body>
+    <div id = "palindromeauth" action="#">
+        First Name: <input type = "text" id = "firstname" required/>
+        Last Name: <input type = "text" id = "lastname" required/>
+        Zip: <input inputmode = "numeric" id = "zip" required/>
 
-  <script scr="strings.js></script>   
- </head>
- <body>
-   <p>type level to see if its a Palindromes</p>
-   <p1>then type in game to see if its a Palindromes</p>  
-
-   <div id = "registrationForm" onsubmit="validateForm()">
-     <label for = "palindromes">palindromes: </label>
-     <input type = "text" id "palindromes" name = "palindromes"/>
-
-     <input type = "submit" value"Submit">
-   </div>
-
-  </body>
-  </html>
-  
+        <input type = "submit" onclick = "checkCreds();"/>
+    </div>
+</body>
+<script src="strings.js"></script>
+</html>
