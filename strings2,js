@@ -1,4 +1,4 @@
-
+functon validateForm(){
 const validateInputs = () => {const form = document.getElementById('form');
 const first name = document.getElementById('first name');
 const last name = document.getElementById('last name');
