@@ -1,0 +1,57 @@
+
+const validateInputs = () => {const form = document.getElementById('form');
+const first name = document.getElementById('first name');
+const last name = document.getElementById('last name');
+const zipcode = document.getElementById('zipcode');
+
+form.addEventListener('submit', e => {
+    e.preventDefault();
+
+     validateInputs();
+});
+
+const firstnameValue = firstname.value.trim();
+    const lastnameValue = lastname.value.trim();
+    const zipcodeValue = zipcode.value.trim();
+
+    if(firstnameValue === '') {
+        setError(firstname, 'first name is required');
+         } else if (firstnameValue.length < 20 ) {
+        setError(password, 'first name must be at least 20 character.')
+    } else {
+        setSuccess(firstname);
+    }
+
+    if(lastnameValue === '') {
+        setError(lastname, 'lastname is required');
+         } else if (lastnameValue.length < 20 ) {
+        setError(password, 'last name must be at least 20 character.')
+    } else {
+        setSuccess(lastname);
+    }
+
+    if(zipcodeValue === '') {
+        setError(zipcode, 'zipcode is required');
+    } else if (zipcodeValue.length < 5 ) {
+        setError(zipcode, 'zipcode must be at least 5 character.')
+    } else {
+        setSuccess(password);
+    }
+
+    const setError = (element, message) => {
+    const inputControl = element.parentElement;
+    const errorDisplay = inputControl.querySelector('.error');
+
+    errorDisplay.innerText = message;
+    inputControl.classList.add('error');
+    inputControl.classList.remove('success')
+}
+
+const setSuccess = element => {
+    const inputControl = element.parentElement;
+    const errorDisplay = inputControl.querySelector('.error');
+
+    errorDisplay.innerText = '';
+    inputControl.classList.add('success');
+    inputControl.classList.remove('error');
+};
