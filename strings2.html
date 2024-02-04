@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Input</title>
     <link rel = "stylesheet" href="strings.css">
+    <script defer src="./strings2.js"></script>
 </head>
 <body>
     <div id = "palindromeauth" action="#">
+        <form id="form" action="/">
         First Name: <input type = "text" id = "firstname" required/>
         Last Name: <input type = "text" id = "lastname" required/>
-        Zip: <input inputmode = "numeric" id = "zip" required/>
+        Zip: <input inputmode = "numeric" id = "zipcode" required/>
 
         <input type = "submit" onclick = "checkCreds();"/>
+     </form>       
     </div>
 </body>
 <script src="strings.js"></script>
