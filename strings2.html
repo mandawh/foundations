@@ -8,11 +8,22 @@
     <script defer src="./strings2.js"></script>
 </head>
 <body>
-    <div id = "palindromeauth" action="#">
-        <form id="form" action="/">
-        First Name: <input type = "text" id = "firstname" required/>
-        Last Name: <input type = "text" id = "lastname" required/>
-        Zip: <input inputmode = "numeric" id = "zipcode" required/>
+    <form id="form" action="/">
+            <div class="input-control">
+                <label for="firstname">First Name</label>
+                <input id="firstname" name="firstname" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="lastname">Last Name</label>
+                <input id="lastname" name="lastname" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="zipcode">Zipcode</label>
+                <input id="zipcode"name="zipcode" type="zipcode">
+                <div class="error"></div>
+            </div>
 
         <input type = "submit" onclick = "checkCreds();"/>
      </form>       
